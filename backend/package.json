@@ -1,0 +1,32 @@
+{
+  "name": "ssr-starter",
+  "version": "1.0.0",
+  "description": "This is a quick starter kit for the projects with server side rendering. It has the skeleton ready and the basic dependencies and dev dependencies added to the package. It can be used to build a project on top of it.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Siddharth Tiwari (At Designs Encoded Private Limited)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-mysql-session": "^2.1.6",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2",
+    "unsql": "^1.2.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.7"
+  }
+}

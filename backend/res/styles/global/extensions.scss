@@ -1,7 +1,0 @@
-@import "./overrides";
-
-.input-group {
-  &:focus-within {
-    border-color: $primary !important;
-  }
-}

@@ -1,0 +1,37 @@
+###
+
+POST http://localhost:3000/superAdmin/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"ab2c@gmail.com",
+    "password":"123"
+}
+
+###
+
+POST http://localhost:3000/superAdmin/auth/forgot-password HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"abcde@gmail.com"
+}
+
+###
+
+PUT http://localhost:3000/superAdmin/auth/reset-password HTTP/1.1
+Content-Type: application/json
+
+{
+    "otp":"72255",
+    "password":"67890"
+}
+
+###
+
+PUT http://localhost:3000/superAdmin/auth/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"abcde@gmail.com"
+}
